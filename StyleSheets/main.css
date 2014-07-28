@@ -17,22 +17,23 @@ a {
   text-decoration: none;
 }
 .topleft{
+
   font-family: 'Roboto Condensed', sans-serif;
   position: absolute;
   top: 10px;
-  margin-left: 10px;
-}
-.topleft a{
+  margin-left: 10px; }
+
+.topleft a {
   color: #03354f;
-  text-decoration: none;
-}
-.topright{
+  text-decoration: none; }
+
+.topright {
   font-family: 'Roboto Condensed', sans-serif;
   position: absolute;
   top: 10px;
-  margin-left: 1050px;
-}
-.topright a{
+  margin-left: 1050px; }
+
+.topright a {
   color: #03354f;
   text-decoration: none;
 }
@@ -155,10 +156,10 @@ margin-left: 30px;
 h3{
   font-family: 'Roboto Condensed', sans-serif;
   color: #0073b5;
-  text-align: center;
-}
-.authorsocial{
-  font-family:'Roboto Condensed', sans-serif;
+  text-align: center; }
+
+.authorsocial {
+  font-family: 'Roboto Condensed', sans-serif;
   color: grey;
   font-weight: lighter;
   font-size: 12px;
