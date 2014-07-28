@@ -1,4 +1,5 @@
-.container{
+body{
+  margin: 0px;
 }
 .logos{
   height: 22px;
@@ -52,22 +53,28 @@
   color: #03354f;
   text-decoration: none;
 }
-#header{
+.headcontainer{
   background-color: #0073b5;
-  width: 100%;
 }
 header{
+  background-image: url(../Images/wave.jpg);
   opacity: .5;
+  width: 100%;
+  min-height: 400px;
 }
 header:hover{
   opacity: 1;
 }
 .popularposts{
   background-color: #0073b5;
-  display: inline-block;
+  width:100%;
+}
+.popularposts a{
+  float: left;
   margin: 0 auto;
-  width: 100%;
+  width: 25%;
   position: relative;
+
 }
 .popularposts a p{
   position: absolute;
@@ -89,8 +96,13 @@ header:hover{
 .author{
   height: 40px;
   border-radius: 100%;
-  background-color: #0073b5;
   opacity: .5;
+}
+.authorimage{
+  background-color:#0073b5;
+  width: 100px;
+  border-radius: 100%;
+  margin: 0 auto;
 }
 #author2{
   height: 100px;
@@ -108,11 +120,11 @@ header:hover{
 .navpostinfo{
   display: inline-block;
 }
-span{
+.postdate{
   font-family: 'Roboto Condensed', sans-serif;
   color: grey;
 }
-span a{
+a .postdate{
   text-decoration: none;
 }
 .blogaside{
@@ -131,13 +143,21 @@ vertical-align: top;
 margin-left: 30px;
 }
 .padadd{
-  height: 400px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   opacity: .5;
+  width: 150px;
 }
-.padadd:hover{
+.adimage{
+  background-color: #0073b5;
+  width: 300px;
+  margin-left: 4%;
+}
+.adimage img{
+  width: 100%;
+}
+.adimage img:hover{
   opacity: 1;
 }
 p{
@@ -174,9 +194,8 @@ blockquote{
   color: #a1b2bd;
 }
 .footerimages{
-  height: 265px;
+  width:100%;
   display: inline-block;
-  margin-left: 1px;
   opacity: .5;
 }
 .footerimages:hover{
